@@ -1,5 +1,5 @@
 # Swift-uikit-simplify-dsl
-Simplify UIKit with by adopting the Domain Specific Language method
+Simplify UIKit with by adopting the Domain Specific Language method like SwiftUI
 
 ## UIKit Domain Specific Languange (DSL)
 
