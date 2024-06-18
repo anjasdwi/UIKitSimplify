@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'UIKitSimplify_Example' do
+  pod 'UIKitSimplify', :path => '../'
+
+  target 'UIKitSimplify_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
