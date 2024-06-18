@@ -1,0 +1,16 @@
+PODS:
+  - UIKitSimplify (0.1.0)
+
+DEPENDENCIES:
+  - UIKitSimplify (from `../`)
+
+EXTERNAL SOURCES:
+  UIKitSimplify:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIKitSimplify: e2464a0c01014c6760bbb524d50325ae78139a39
+
+PODFILE CHECKSUM: 2367f3fc165587ac4ed332ce3cda8b6c1123c67e
+
+COCOAPODS: 1.15.2

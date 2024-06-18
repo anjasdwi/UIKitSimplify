@@ -2,13 +2,13 @@
 //  NSObject+Withable.swift
 //  Bareksa
 //
-//  Created by Engineer on 10/10/22.
+//  Created by anjasdwi on 10/10/22.
 //  Copyright © 2022 Bareksa. All rights reserved.
 //
 
 import Foundation
 
-protocol Withable {
+public protocol Withable {
     associatedtype Typ
 
     @discardableResult func with(_ closure: (_ instance: Typ) -> Void) -> Typ
@@ -17,10 +17,11 @@ protocol Withable {
 extension Withable {
 
     @discardableResult
-    func with(_ closure: (_ instance: Self) -> Void) -> Self {
+    public func with(_ closure: (_ instance: Self) -> Void) -> Self {
         closure(self)
         return self
     }
+
 }
 
 extension NSObject: Withable { }
