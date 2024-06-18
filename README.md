@@ -124,4 +124,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 Anjas Dwi - <a href="https://www.linkedin.com/in/anjas-dwi/">LinkedIn</a> - anjasdwi.id@gmail.com <br/>
-Project Link: <a href="https://github.com/anjasdwi/UIKitSimplify">https://github.com/anjasdwi/UIKitSimplify</a>
+Project Link: <a href="https://github.com/anjasdwi/UIKitSimplify">https://github.com/anjasdwi/UIKitSimplify</a> <br/>
+Cocoapod Link: <a href="https://cocoapods.org/pods/UIKitSimplify">https://cocoapods.org/pods/UIKitSimplify</a>
