@@ -1,7 +1,43 @@
-# Swift-uikit-simplify-dsl
-Simplify UIKit with by adopting the Domain Specific Language method like SwiftUI
+![iOS](https://img.shields.io/badge/iOS-ffffff?style=for-the-badge&labelColor=black&logo=ios&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05032?style=for-the-badge&labelColor=black&logo=swift&logoColor=F05032)
 
-## UIKit Domain Specific Languange (DSL)
+# UIKitSimplify
+UIKitSimplify is Simplify UIKit by adopting the Domain Specific Language (DSL) method like SwiftUI.
+
+## Contents
+- [UIKitSimplify](#uikitsimplify)
+  - [Contents](#contents)
+  - [Requirements](#requirements)
+  - [Instalation](#instalation)
+  - [Usage](#usage)
+    - [Create Object](#create-object)
+        - [Trailing syntax](#trailing-syntax)
+        - [Shorthand syntax](#shorthand-syntax)
+    - [Arrange view using ResultBuilder](#arrange-view-using-resultbuilder)
+        - [Using initialize method](#using-initialize-method)
+        - [Using existing function](#using-existing-function)
+    - [UIStackView DSL](#uistackview-dsl)
+  - [Licence](#licence)
+  - [Contact](#contact)
+
+## Requirements
+- iOS 12.0+
+- Xcode 10.0+
+- Swift 5.0+
+
+## Instalation
+UIKitSimplify support for `Cocoapod` instalation, you can use this library by adding to your `PodFile`:
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'UIKitSimplify', '~> 0.1.0'
+end
+```
+
+## Usage
 
 ### Create Object
 `Withable` custom protocol to help you to create an object and config their own properties easily. Just using `with` function, and you can access all object properties. e.g.
@@ -82,3 +118,10 @@ let mainSV = UIStackView {
         (12, after: anotherView2)
     )
 ```
+
+## Licence
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## Contact
+Anjas Dwi - <a href="https://www.linkedin.com/in/anjas-dwi/">LinkedIn</a> - anjasdwi.id@gmail.com <br/>
+Project Link: <a href="https://github.com/anjasdwi/UIKitSimplify">https://github.com/anjasdwi/UIKitSimplify</a>
